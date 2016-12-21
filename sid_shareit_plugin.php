@@ -108,7 +108,7 @@ EEE;
             <div class="updated"><p><strong>Options Saved</strong></p></div>
             <?php
         }
-        else{
+        
             $disp_title = get_option('shareit_disp_title');
             $disp_text = get_option('shareit_disp_text');
             $fb_page = get_option('shareit_fb_page');
@@ -140,12 +140,12 @@ EEE;
                 </form>
             </div>
             <?php
-        }
+        
     }
     
     function shareit_shortcode($atts, $content= null)
     {
-        echo '<div class="lock mct_shareit_locker">'.$content.'</div>'
+        echo '<div class="lock mct_shareit_locker">'.$content.'</div>';
     }
     
     add_action('wp_footer','shareit_add_header_items');
