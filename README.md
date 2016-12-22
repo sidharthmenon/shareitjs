@@ -1,3 +1,7 @@
+UPDATE: This wordpress plugin no longer works as facebook has depricated FQL and REST API
+
+FOR NEW WORKING PLUGIN VISIT : https://github.com/sidharthmenon/shareit-locker
+
 # shareitjs
 
 A wordpress plugin for - shareIt.js – Social Content Locker jQuery Plugin
